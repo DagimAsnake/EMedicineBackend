@@ -6,7 +6,7 @@
 
         public string Name { get; set; }
 
-        public string Manugacturer { get; set; }
+        public string Manufacturer { get; set; }
 
         public decimal UnitPrice { get; set; }
 
@@ -17,5 +17,9 @@
         public DateTime ImageUrl { get; set; }
 
         public int Status { get; set; }
+
+        public DateTime ExpDate { get; set; }
+
+        public string Type { get; set; }
     }
 }
